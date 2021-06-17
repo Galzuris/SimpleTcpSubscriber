@@ -1,0 +1,3 @@
+include ':app:SimpleTcpSubscriber'
+include ':app'
+rootProject.name = "SimpleTcpLibrary"
