@@ -52,7 +52,7 @@ public class SimpleTcpSubscriber {
         catch (Exception ignored) { }
     }
 
-    private void send(final String data)
+    public void send(final String data)
     {
         try {
             if (socket != null && socket.isConnected()) {
